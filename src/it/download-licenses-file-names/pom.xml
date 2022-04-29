@@ -64,7 +64,7 @@
   <build>
     <plugins>
       <plugin>
-        <groupId>org.codehaus.mojo</groupId>
+        <groupId>org.bitbucket.cpointe.mojohaus</groupId>
         <artifactId>license-maven-plugin</artifactId>
         <version>@pom.version@</version>
         <executions>

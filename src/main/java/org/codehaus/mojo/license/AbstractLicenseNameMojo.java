@@ -159,6 +159,14 @@ public abstract class AbstractLicenseNameMojo
     @Parameter
     protected Map<String, String> extraTemplateParameters;
 
+    /**
+     * Ignore the last date for copyright year range, preferred by some legal perspectives.
+     *
+     * @since 2.0.0
+     */
+    @Parameter( property = "license.ignoreLastDate", defaultValue = "false" )
+    protected boolean ignoreLastDate;
+
     // ----------------------------------------------------------------------
     // Private Fields
     // ----------------------------------------------------------------------
@@ -270,7 +278,7 @@ public abstract class AbstractLicenseNameMojo
 
     Copyright getCopyright( String holder )
     {
-        return Copyright.newCopyright( inceptionYear, holder );
+        return (ignoreLastDate) ? Copyright.newCopyright( inceptionYear, null, holder ) : Copyright.newCopyright( inceptionYear, holder );
     }
 
     /**

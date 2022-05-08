@@ -64,7 +64,7 @@ public class JavaFileHeaderTransformer
      */
     public String[] getDefaultAcceptedExtensions()
     {
-        return new String[]{ "java", "groovy", "css", "jccs", "cs", "as", "aj", "c", "h", "cpp", "js", "json", "ts",
+        return new String[]{ "java", "groovy", "css", "jccs", "cs", "as", "aj", "c", "h", "cpp", "js", "ts",
                 "go", "kt"
         };
     }

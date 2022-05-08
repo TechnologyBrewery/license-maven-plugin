@@ -156,11 +156,12 @@ public class LicenseRepository
 
                 license.setDescription( licenseDescription );
 
-                LOG.info( "register {}", license.getDescription() );
+                LOG.debug( "register {}", license.getDescription() );
                 LOG.debug( "{}", license );
                 licenses.add( license );
             }
             licenses = Collections.unmodifiableList( licenses );
+            LOG.info( "{} licenses registered from {}", licenses.size(), definitionURL);
         }
         finally
         {

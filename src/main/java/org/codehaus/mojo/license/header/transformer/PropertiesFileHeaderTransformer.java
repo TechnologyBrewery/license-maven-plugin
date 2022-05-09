@@ -48,7 +48,7 @@ public class PropertiesFileHeaderTransformer
      */
     public String[] getDefaultAcceptedExtensions()
     {
-        return new String[]{ "properties", "sh", "py", "rb", "pl", "pm" };
+        return new String[]{ "properties", "sh", "py", "rb", "pl", "pm", "R" };
     }
 
     /**

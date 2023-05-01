@@ -87,7 +87,7 @@
       </plugin>
 
       <plugin>
-        <groupId>org.bitbucket.cpointe.mojohaus</groupId>
+        <groupId>org.technologybrewery.mojohaus</groupId>
         <artifactId>license-maven-plugin</artifactId>
         <version>@pom.version@</version>
 

@@ -49,7 +49,7 @@
       <plugins>
 
         <plugin>
-          <groupId>org.codehaus.mojo</groupId>
+          <groupId>org.technologybrewery.mojohaus</groupId>
           <artifactId>license-maven-plugin</artifactId>
           <version>@project.version@</version>
         </plugin>
@@ -58,7 +58,7 @@
 
     <plugins>
       <plugin>
-        <groupId>org.codehaus.mojo</groupId>
+        <groupId>org.technologybrewery.mojohaus</groupId>
         <artifactId>license-maven-plugin</artifactId>
         <version>@project.version@</version>
         <executions>

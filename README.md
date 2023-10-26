@@ -1,3 +1,8 @@
+# PLEASE USE OFFICIAL `license-maven-plugin` INSTEAD
+With the `org.codehaus.mojo:license-maven-plugin` reactivating after a long hiatus, we have submitted our key changes from this fork back into that main project.  As of [release 2.3.0](https://github.com/mojohaus/license-maven-plugin/releases/tag/2.3.0), these have been incorporated and we are no longer supporting or using this forked repo.  It is offically **deprecated**.
+* [#519](https://github.com/mojohaus/license-maven-plugin/issues/519) minor updates to reduce verbosity of standard execution
+* [#517](https://github.com/mojohaus/license-maven-plugin/issues/519): optionally support copyright values that only contain inception year rather than year range
+
 # Fork Documentation
 
 This is the [license-maven-plugin](http://www.mojohaus.org/license-maven-plugin/).

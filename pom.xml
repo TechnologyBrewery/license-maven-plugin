@@ -127,7 +127,7 @@
 
 		<pluginPluginVersion>3.5.1</pluginPluginVersion>
 		<plexusComponentVersion>1.7.1</plexusComponentVersion>
-		<maven-resolver.version>1.3.3</maven-resolver.version>
+		<maven-resolver.version>1.9.16</maven-resolver.version>
 	</properties>
 
 	<dependencyManagement>
